@@ -8,4 +8,4 @@ print("How much do you weigh(in kilograms)?")
 weigh = float(input())
 bmi = (weigh/(tall*2))
 
-print(f"{name} you are {years} years old and your bmi is {bmi}")
+print(f"{name} you are {years} years old and your bmi is {bmi:.2f}")
