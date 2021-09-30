@@ -9,4 +9,4 @@ print("Health has been set.")
 
 print(f"Lives:  {'♥'*lives}")
 print(f"Energy:   {'♦'*energy}")
-print(f"Shield:   {'♦'*3shield}")
+print(f"Shield:   {'♦'*shield}")
