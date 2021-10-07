@@ -1,9 +1,9 @@
 print("How many cables should i remove?")
 number = int(input())
-number = 0
-while number <10:
+count = 0
+while count <number:
     print("Removed cable.")
-    number = number+1
+    count = count+1
 
-print(f"Completed removed the cables.")
+print(f"Completed removed {number} cables")
 
