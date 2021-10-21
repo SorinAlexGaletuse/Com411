@@ -10,7 +10,7 @@ def read(file_path):
             print(remaing_line)
 
 def run():
-    read("bots.csv")
+    read("bot.csv")
 
 if __name__ == "__main__":
     run()
