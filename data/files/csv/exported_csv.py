@@ -9,13 +9,11 @@ def export(file_path , number_bots):
             print("Please enter the bot paint:")
             bot_paint = input()
         user_input = f"{bot_id},{bot_name},{bot_paint}\n"
-
         file.write(user_input)
-
     print("Done!")
 
 def run():
-    export("exported_bots.csv" ,2)
+    export("exported_bots.csv", 2)
 
 
 if __name__ == "__main__":
