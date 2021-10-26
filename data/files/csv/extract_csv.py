@@ -6,7 +6,7 @@ def extract(file_path):
         csv_reader = csv.reader(file)
         next(csv_reader)
         names =""
-        print("Done! The extracted names are as follows:")
+        print("Done!\nThe extracted names are as follows:")
         for value in csv_reader:
             print(f"{value[1]}")
 
