@@ -8,8 +8,8 @@ def export(file_path , number_bots):
             bot_name = input()
             print("Please enter the bot paint:")
             bot_paint = input()
-        user_input = f"{bot_id},{bot_name},{bot_paint}\n"
-        file.write(user_input)
+            user_input = f"\n{bot_id},{bot_name},{bot_paint}"
+            file.write(user_input)
     print("Done!")
 
 def run():
