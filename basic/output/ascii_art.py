@@ -1,4 +1,5 @@
-print("##########")
-print("#        #")
-print("#        #")
-print("##########")
+def run():
+    print("##########")
+    print("#        #")
+    print("#        #")
+    print("##########")

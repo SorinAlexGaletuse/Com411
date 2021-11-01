@@ -1,1 +1,2 @@
-print("\" I am beep!\"")
+def run():
+    print("\" I am beep!\"")
