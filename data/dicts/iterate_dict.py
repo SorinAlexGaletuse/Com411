@@ -9,7 +9,7 @@ def display_keys(data):
     print()
 def display_values(data):
     print("Values:")
-    for value in data:
+    for value in data.values():
         print(value)
     print()
 def display_items(data):
