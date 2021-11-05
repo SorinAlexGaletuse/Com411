@@ -4,7 +4,7 @@ def pattern():
 
 def display_keys(data):
     print("Keys:")
-    for key in data:
+    for key in data.keys():
         print(key)
     print()
 def display_values(data):
@@ -14,7 +14,7 @@ def display_values(data):
     print()
 def display_items(data):
     print("Items:")
-    for key, value in data:
+    for key, value in data.items():
         print(f"{key}: {value}")
     print()
 
