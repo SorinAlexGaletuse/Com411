@@ -29,12 +29,27 @@ def display_medal_tally(tally):
             | {'Bronze':<10}|{tally['Bronze']:<10}|
     """)
 
+def display_team_medal_tally(team_tally):
+    team_tally = {"United Kingdom": {"Gold":10,"Silver":5,"Bronze":2}}
+    for team, tally in team_tally.items():
+        print(team)
+        print(f"\nGold:{tally['Gold']}, Silver:{tally['Silver']}, Bronze:{tally['Bronze']}")
+
+def display_years(years):
+    years = {"2012","2014","2016","2018","2020"}
+    reverse_years = sorted(years, reverse=True)
+    for years in reverse_years:
+        print(years)
+
+
 def run():
     started()
     completed()
     error("error")
     menu()
-    display_medal_tally("Sweeden")
+    display_medal_tally("medal")
+    display_team_medal_tally("team_medal")
+    display_years("years")
 
 if __name__ == "__main__":
     run()
