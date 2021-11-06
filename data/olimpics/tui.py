@@ -18,12 +18,23 @@ def menu():
           {"[ctally]":<10} Tally up medals for each team
           {"[exit]":<10} Exit the program
     """)
+    print("Your selection:\n")
+    menu_selection = input()
+
+def display_medal_tally(tally):
+    tally = {"Gold":10,"Silver":5,"Bronze":2}
+    print(f"""
+            | {'Gold':<10}|{tally['Gold']:<10}|
+            | {'Silver':<10}|{tally['Silver']:<10}|
+            | {'Bronze':<10}|{tally['Bronze']:<10}|
+    """)
 
 def run():
     started()
     completed()
     error("error")
     menu()
+    display_medal_tally("Sweeden")
 
 if __name__ == "__main__":
     run()
