@@ -4,8 +4,16 @@ import tui
 
 
 def read_data(file_path):
-    pass
+    tui.started(f"Reading data from{file_path}")
+    data = []
+    with open(file_path) as file:
+        csv_reader = csv.reader(file_path)
+        next(csv_reader)
+        for line in csv_reader:
+            data.append(line)
+    tui.completed()
 
+    return data
 
 def run():
     athlete_data = read_data("athlete_events.csv")
