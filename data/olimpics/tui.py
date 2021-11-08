@@ -36,7 +36,7 @@ def display_team_medal_tally(team_tally):
         print(f"\nGold:{tally['Gold']}, Silver:{tally['Silver']}, Bronze:{tally['Bronze']}")
 
 def display_years(years):
-    years = {"2012","2014","2016","2018","2020"}
+    years = {"2008","2010","2012","2014","2016","2018","2020"}
     reverse_years = sorted(years, reverse=True)
     for years in reverse_years:
         print(years)
