@@ -42,14 +42,14 @@ def display_years(years):
         print(years)
 
 
-def run():
-    started()
-    completed()
-    error("error")
-    menu()
-    display_medal_tally("medal")
-    display_team_medal_tally("team_medal")
-    display_years("years")
+#def run():
+    #started()
+    #completed()
+    #error("error")
+    #menu()
+    #display_medal_tally("medal")
+    #display_team_medal_tally("team_medal")
+    #display_years("years")
 
-if __name__ == "__main__":
-    run()
+#if __name__ == "__main__":
+    #run()
