@@ -15,7 +15,7 @@ def menu():
     print(f"""Please select one of the following options:
           {"[years]":<10} List unique years
           {"[tally]":<10} Tally up medals
-          {"[ctally]":<10} Tally up medals for each team
+          {"[team]":<10} Tally up medals for each team
           {"[exit]":<10} Exit the program
     """)
     print("Your selection:\n")
