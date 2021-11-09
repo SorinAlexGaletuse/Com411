@@ -22,7 +22,7 @@ def menu():
     menu_selection = input()
 
 def display_medal_tally(tally):
-    tally = {"Gold":10,"Silver":5,"Bronze":2}
+    #tally = {"Gold":10,"Silver":5,"Bronze":2}
     print(f"""
             | {'Gold':<10}|{tally['Gold']:<10}|
             | {'Silver':<10}|{tally['Silver']:<10}|
@@ -30,13 +30,13 @@ def display_medal_tally(tally):
     """)
 
 def display_team_medal_tally(team_tally):
-    team_tally = {"United Kingdom": {"Gold":10,"Silver":5,"Bronze":2}}
+    #team_tally = {"United Kingdom": {"Gold":10,"Silver":5,"Bronze":2}}
     for team, tally in team_tally.items():
         print(team)
         print(f"\nGold:{tally['Gold']}, Silver:{tally['Silver']}, Bronze:{tally['Bronze']}")
 
 def display_years(years):
-    years = {"2008","2010","2012","2014","2016","2018","2020"}
+    #years = {"2008","2010","2012","2014","2016","2018","2020"}
     reverse_years = sorted(years, reverse=True)
     for years in reverse_years:
         print(years)
