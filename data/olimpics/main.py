@@ -19,6 +19,7 @@ def run():
 
     while True:
         selection = tui.menu()
+        print(selection)
         if selection == "years":
             process.list_years(athlete_data)
         elif selection == "tally":

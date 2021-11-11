@@ -20,6 +20,7 @@ def menu():
     """)
     print("Your selection:\n")
     menu_selection = input()
+    return menu_selection
 
 def display_medal_tally(tally):
     #tally = {"Gold":10,"Silver":5,"Bronze":2}
