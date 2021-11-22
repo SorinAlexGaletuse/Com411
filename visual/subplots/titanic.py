@@ -26,9 +26,9 @@ def read_data():
 def run():
     data = read_data()
     fig, axs = plt.subplots(2,2)
-    axs[0,0].bar(data["survived"],data["age"])
-    axs[0,1].scatter(data["survived"],data["fare"])
-    axs[1,0].step(data["fare"],data["age"])
+    axs[0,0].pie(data["survived"],data["age"])
+    axs[0,1].pie(data["survived"],data["fare"])
+    axs[1,0].scatter(data["age"],data["fare"])
     axs[1,1].plot(data["sex"],data["survived"])
     plt.show()
 
