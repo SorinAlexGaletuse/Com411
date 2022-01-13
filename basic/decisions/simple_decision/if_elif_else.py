@@ -9,6 +9,6 @@ elif direction =='down':
 elif direction =='left':
     print("I am painting in the left direction")
 elif direction =='right':
-    print("i am painting from the right"
+    print("i am painting from the right")
 
 print("Program ended!")
